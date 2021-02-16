@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c067fa45ae8cd7d</title>
+    <link>https://a38ad0f9/a38ad0f9.github.io/</link>
+    <description>Recent content on c067fa45ae8cd7d</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Nov 1984 00:00:00 +0000</lastBuildDate><atom:link href="https://a38ad0f9/a38ad0f9.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B7e2eb928d677e2e</title>
+      <link>https://a38ad0f9/a38ad0f9.github.io/31d83c2b5fefe/b7e2eb928d677e2e/</link>
+      <pubDate>Mon, 05 Nov 1984 00:00:00 +0000</pubDate>
+      
+      <guid>https://a38ad0f9/a38ad0f9.github.io/31d83c2b5fefe/b7e2eb928d677e2e/</guid>
+      <description>Parrot OS KDE Config After Fresh Install 01. Update + Upgrade + System Upgrade ┌─[user@parrot]─[~] └──╼ $sudo apt update &amp;amp;&amp;amp; sudo apt full-upgrade &amp;amp;&amp;amp; sudo apt dist-upgrade &amp;amp;&amp;amp; sudo apt clean &amp;amp;&amp;amp; sudo apt autoremove 02. Fix could not find the program Konsole bug Method 1:  Go to System settings ➡️ Default Applications In Default Applications select Terminal Emulator Select Use a different terminal program: Type /usr/bin/konsole Click on Apply and Exit  Method 2:  Open your Terminal Run this command  ┌─[user@parrot]─[~] └──╼ $sudo update-alternatives --config x-terminal-emulator [sudo] password for user: There are 6 choices for the alternative x-terminal-emulator (providing /usr/bin/x-terminal-emulator).</description>
+    </item>
+    
+  </channel>
+</rss>

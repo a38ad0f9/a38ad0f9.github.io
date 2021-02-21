@@ -129,8 +129,7 @@ OR
 ┌─<span style=color:#f92672>[</span>user@parrot<span style=color:#f92672>]</span>─<span style=color:#f92672>[</span>~<span style=color:#f92672>]</span>
 └──╼ $sh -c <span style=color:#e6db74>&#34;</span><span style=color:#66d9ef>$(</span>curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style=color:#66d9ef>)</span><span style=color:#e6db74>&#34;</span>
 ┌─<span style=color:#f92672>[</span>user@parrot<span style=color:#f92672>]</span>─<span style=color:#f92672>[</span>~<span style=color:#f92672>]</span>
-└──╼ $git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-echo <span style=color:#e6db74>&#34;source </span><span style=color:#e6db74>${</span>(q-)PWD<span style=color:#e6db74>}</span><span style=color:#e6db74>/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh&#34;</span> &gt;&gt; <span style=color:#e6db74>${</span>ZDOTDIR<span style=color:#66d9ef>:-</span>$HOME<span style=color:#e6db74>}</span>/.zshrc
+└──╼ $git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span style=color:#e6db74>${</span>ZSH_CUSTOM<span style=color:#66d9ef>:-</span>~/.oh-my-zsh/custom<span style=color:#e6db74>}</span>/plugins/zsh-syntax-highlighting
 ┌─<span style=color:#f92672>[</span>user@parrot<span style=color:#f92672>]</span>─<span style=color:#f92672>[</span>~<span style=color:#f92672>]</span>
 └──╼ $git clone https://github.com/zsh-users/zsh-autosuggestions <span style=color:#e6db74>${</span>ZSH_CUSTOM<span style=color:#66d9ef>:-</span>~/.oh-my-zsh/custom<span style=color:#e6db74>}</span>/plugins/zsh-autosuggestions
 ┌─<span style=color:#f92672>[</span>user@parrot<span style=color:#f92672>]</span>─<span style=color:#f92672>[</span>~<span style=color:#f92672>]</span>
